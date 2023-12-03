@@ -5,6 +5,7 @@ import { AiOutlineHome, AiOutlineInfoCircle, AiOutlineTool, AiOutlineProject, Ai
 import { FiMenu } from 'react-icons/fi';
 import { Link, animateScroll as scroll } from 'react-scroll';
 import './Navbar.css';
+import logo from './logo.png';
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -41,7 +42,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-container">
         <div className="navbar-logo" onClick={scrollToTop}>
-          Your Logo
+          <img className='logo' src={logo}></img>
         </div>
 
         <div className={`navbar-mobile-menu ${isMobileMenuOpen ? 'open' : ''}`} onClick={toggleMobileMenu}>
