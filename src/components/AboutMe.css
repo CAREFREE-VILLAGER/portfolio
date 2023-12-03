@@ -1,0 +1,25 @@
+.about-me-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    line-height: 2;
+  }
+  
+  @media (max-width: 767px) {
+    .about-me-container {
+      padding: 10px;
+    }
+  }
+  
+  .about-title {
+    width: 100%;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .increase{
+    font-size: large;
+  }

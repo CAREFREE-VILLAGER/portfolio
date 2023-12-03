@@ -1,0 +1,59 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 7px 29px 0 hsla(240, 5%, 41%, 0.2);
+    gap: 5%;
+    margin: auto auto 35px;
+    max-width: 660px;
+    padding: 20px;
+    width: fit-content;
+  }
+  
+  img {
+    max-width: 70%;
+    max-height: 100%;
+    border-radius: 5px;
+  }
+  
+  .text {
+    font-size: 18px; 
+    padding-left: 0px;
+    padding-right: 10px;
+    max-width: 50%;
+  }
+  
+  ul {
+    list-style-type: disc;
+    padding-left: 10px;
+    margin-bottom: 10px; 
+  }
+  
+  .links {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .button-link {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button-link:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  .project-title {
+    width: 100%;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  
